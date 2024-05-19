@@ -1,7 +1,6 @@
 # fetchimagefsm2
 
-A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
-you.
+A [re-frame](https://github.com/day8/re-frame) application designed to fetch images from picsum api. This app tests maxim re-state library integration with re-frame.
 
 ## Getting Started
 
