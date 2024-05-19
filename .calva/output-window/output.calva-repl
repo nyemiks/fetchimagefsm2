@@ -1,0 +1,280 @@
+; This is the Calva REPL Window.
+; It's just a file, really, with some special treatment from Calva.
+; Use it as a REPL input prompt if you like. (When the REPL is connected.)
+; TIPS: The keyboard shortcut `ctrl+alt+o r` shows and focuses this window
+; Please see https://calva.io/repl-window/ for more info.
+; Happy coding! ♥️
+
+; TIPS: As with any Clojure file when the REPL is connected:
+; - `alt+enter` evaluates the current top level form.
+; - `ctrl+enter` evaluates the current form.
+; Special for this file:
+; - `alt+up` and `alt+down` traverse up and down the REPL command history
+;    when the cursor is after the last contents at the prompt
+; 
+; See also the Calva Inspector: https://calva.io/inspector/
+
+PLEASE NOTE
+We will update the default location of this file.
+The new default location will be
+  "<projectRootPath>/.calva/repl.calva-repl"
+For now the legacy path is used by default.
+To give yourself a smooth transition, you can opt in
+to the change, by configuring this setting as false:
+  "calva.useLegacyReplWindowPath"
+and then add "**/.calva/repl.calva-repl" to your ".gitignore" file.
+
+
+This file is configured as the output destination for all REPL output.
+You can configure this with the setting:
+  "calva.outputDestinations"
+
+
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2 & npx.cmd shadow-cljs -d cider/cider-nrepl:0.47.1 watch :app & popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+; 
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+Jack-in done.
+clj꞉user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2 & npx.cmd shadow-cljs -d cider/cider-nrepl:0.47.1 watch :app & popd
+; Using host:port localhost:8777 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+; Please start your ClojureScript app (load it in the browser, or whatever is appropriate) so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+; 
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshootingclj꞉user꞉> 
+Jack-in done.
+clj꞉user꞉> 
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 1 compiled, 2 warnings, 0.97s)
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\core.cljs:28:1
+; fetchimagefsm2/core.cljs [line 28, col 1] Unexpected EOF while reading item 6 of list, starting at line 16 and column 1.
+; 
+; --------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------
+; 
+; [:app] Compiling ...
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\core.cljs:29:1
+; fetchimagefsm2/core.cljs [line 29, col 1] Unexpected EOF while reading item 6 of list, starting at line 16 and column 1.
+; 
+; --------------------------------------------------------------------------------
+; --------------------------------------------------------------------------------
+; 
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 1 compiled, 2 warnings, 0.76s)
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 1 compiled, 2 warnings, 0.45s)
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 3 warnings, 0.59s)
+; 
+; ------ WARNING #1 - :redef-in-file ---------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine imageFetcher {
+; -------^------------------------------------------------------------------------
+;  imageFetcher at line 54 is being replaced
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 3 warnings, 0.56s)
+; 
+; ------ WARNING #1 - :redef-in-file ---------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine imageFetcher {
+; -------^------------------------------------------------------------------------
+;  imageFetcher at line 54 is being replaced
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 3 warnings, 0.51s)
+; 
+; ------ WARNING #1 - :redef-in-file ---------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine imageFetcher {
+; -------^------------------------------------------------------------------------
+;  imageFetcher at line 54 is being replaced
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 3 warnings, 0.42s)
+; 
+; ------ WARNING #1 - :redef-in-file ---------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine imageFetcher {
+; -------^------------------------------------------------------------------------
+;  imageFetcher at line 54 is being replaced
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 3 warnings, 0.61s)
+; 
+; ------ WARNING #1 - :redef-in-file ---------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine imageFetcher {
+; -------^------------------------------------------------------------------------
+;  imageFetcher at line 54 is being replaced
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build completed. (533 files, 2 compiled, 2 warnings, 0.64s)
+; Warnings in Library Code:
+;  Use of undeclared Var com.rpl.specter/java
+;  Use of undeclared Var com.rpl.specter/java
+; [:app] Compiling ...
+; [:app] Build failure:
+; ------ ERROR -------------------------------------------------------------------
+;  File: C:\Users\nyemi\Documents\react\myproject2\fetchimagefsm2\src\fetchimagefsm2\views.cljs:58:1
+; --------------------------------------------------------------------------------
+;   55 | 
+;   56 | 
+;   57 | 
+;   58 | (rs/def-machine {
+; -------^------------------------------------------------------------------------
+; null
+; Wrong number of args (1) passed to: maximgb.re-state.core/def-machine
+; --------------------------------------------------------------------------------
+;   59 |   :id :imageFetcher,
+;   60 |   :initial :ready,
+;   61 |   :context {
+;   62 |     :image nil
+; --------------------------------------------------------------------------------
+; 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
